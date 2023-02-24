@@ -1,0 +1,8 @@
+body{
+    /* background-color: #0BA8E6; */
+    color: "#DEF2F1" !important ;
+}
+.elc-a-tag:hover{
+    text-decoration: underline !important;
+    color: grey !important;
+}

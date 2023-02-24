@@ -1,0 +1,21 @@
+.btn{
+    font-size: 17px !important;
+    margin: 1rem !important;
+}
+.btn-knw-more{
+    color:white !important;
+    border: 1px solid white !important;       
+}
+.btn-knw-more:hover{
+    color: #25244d !important;
+    background-color: white !important;       
+}
+.btn-get-st{
+    color: #25244d !important;
+    background-color: white !important;       
+}
+.btn-get-st:hover{
+    background-color: #25244d !important;
+    color: white !important;       
+    border: 1px solid white !important;  
+}
