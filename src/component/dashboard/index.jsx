@@ -122,7 +122,7 @@ const DashboardPage = function () {
             padding: "10px 0px",
           }}
         >
-          <a>Thanks for visiting</a>
+          <p>Thanks for visiting</p>
         </Breadcrumbs>
       </div>
     </div>

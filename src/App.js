@@ -1,5 +1,5 @@
 import { React, useLayoutEffect, useState } from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import DashboardPage from "./component/dashboard";
 import ErrorPage from "./component/error";
 import FaqPage from "./component/faq";
@@ -9,10 +9,10 @@ import LoadingSpinnerPage from "./component/loadingSpinner";
 function RoutesWrapper() {
   return (
       <Routes>
-        <Route path="/" element={<FrontDoorPage />} />
+        <Route path="/elocution" element={<FrontDoorPage />} />
         <Route path="/home" element={<DashboardPage />} />
         <Route path="/faq" element={<FaqPage />} />
-        <Route path="*" element={<ErrorPage/>}/>
+        <Route path="/*" element={<ErrorPage/>}/>
         </Routes>
   );
 }
