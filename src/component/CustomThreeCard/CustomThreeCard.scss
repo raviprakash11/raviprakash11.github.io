@@ -1,0 +1,58 @@
+.main-card-app1,.main-card-app2, .main-card-app3{
+  margin-top: 2vh;
+  margin-left: 12px;
+  width: 280px;
+  height: 140px;
+  cursor: pointer;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.main-comp-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.main-card-heading{
+  font-size: 8vh;
+}
+.main-card-subheading{
+  font-size: 4vh;
+}
+.color-design1{
+  position: absolute;
+  right: 0;
+  border-radius: 0px 0px 0px 10px;
+  height: 30px;
+  width: 18%;
+  background-color: aquamarine;
+}
+.main-card-app1:hover{
+  background-color: aquamarine;
+}
+.color-design2{
+  position: absolute;
+  right: 0;
+  border-radius: 0px 0px 0px 10px;
+  height: 30px;
+  width: 18%;
+  background-color: springgreen;
+}
+.main-card-app2:hover{
+  background-color: springgreen;
+}
+.color-design3{
+  position: absolute;
+  right: 0;
+  border-radius: 0px 0px 0px 10px;
+  height: 30px;
+  width: 18%;
+  background-color: orange;
+}
+.main-card-app3:hover{
+  background-color: orange;
+}
