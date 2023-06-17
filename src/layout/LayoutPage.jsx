@@ -102,14 +102,14 @@ export default function LayoutPage() {
   };
   const openTwitter = () => {
     window.open(
-      "https://www.twitter.com/raviprakashz/",
+      "https://www.twitter.com/afrontendboy/",
       "_blank",
       "noopener,noreferrer"
     );
   };
   const openYoutube = () => {
     window.open(
-      "https://www.youtube.com/@strangedesk",
+      "https://www.youtube.com/@afrontendboy",
       "_blank",
       "noopener,noreferrer"
     );
