@@ -95,21 +95,21 @@ export default function LayoutPage() {
   };
   const openLinkedin = () => {
     window.open(
-      "https://www.linkedin.com/in/raviprakash11/",
+      "https://www.linkedin.com/",
       "_blank",
       "noopener,noreferrer"
     );
   };
   const openTwitter = () => {
     window.open(
-      "https://www.twitter.com/tmnbot19656/",
+      "https://www.twitter.com/",
       "_blank",
       "noopener,noreferrer"
     );
   };
   const openYoutube = () => {
     window.open(
-      "https://www.youtube.com/@raviprakash5018",
+      "https://www.youtube.com/",
       "_blank",
       "noopener,noreferrer"
     );
@@ -123,7 +123,7 @@ export default function LayoutPage() {
   };
   const openEmail = () => {
     window.open(
-      `https://outlook.office.com/mail/0/deeplink/compose?subject=&body=&to="ravi.p.prakash@hotmail.com`,
+      `https://outlook.office.com/mail/0/deeplink/compose?subject=&body=&to=`,
       "_blank",
       "noopener,noreferrer"
     );
@@ -571,7 +571,7 @@ export default function LayoutPage() {
                       : "icon-clr-day email-main"
                   }
                 >
-                  <u>raviswork@outlook.com</u>
+                  <u>email</u>
                 </div>
                 <div
                   style={{
