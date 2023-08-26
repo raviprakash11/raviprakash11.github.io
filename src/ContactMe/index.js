@@ -7,7 +7,7 @@ export default function ContactMePage({lightTurnOn}) {
   const [renderForm, setRenderForm] = useState(false);
   const handleRenderForm = () => {
     window.open(
-      `https://outlook.office.com/mail/0/deeplink/compose?subject=&body=&to="ravi.p.prakash@hotmail.com`,
+      `https://outlook.office.com/mail/0/deeplink/compose?subject=&body=&to=`,
       "_blank",
       "noopener,noreferrer"
     );
