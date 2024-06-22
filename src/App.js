@@ -1,23 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MenuBar from "./components/MenuBar";
+import LandingPage from "./components/LandingPage";
+import StartJourney from "./components/StartJourneyPage";
+import GoingJourney from "./components/GoingJourney";
+import Footer from "./components/Footer";
+import ContactMe from "./components/ContactMe";
+import { Divider } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
+      <div>
+        <div
+          style={{
+            position: "sticky",
+            top: "0",
+            backgroundColor: "#fff",
+            zIndex: 1,
+            width: "100%",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          <MenuBar />
+        </div>
+        <div
+          style={{
+            padding: "0px 20px",
+          }}
+        >
+          <LandingPage />
+          <StartJourney />
+          <GoingJourney />
+          <ContactMe />
+        </div>
+        <div
+          style={{
+            width: "100%",
+          }}
+        >
+          <Divider />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
