@@ -87,15 +87,25 @@ export default function MenuBar() {
                 padding: "10px 10px",
               }}
             >
-              <div>
-                <InstagramIcon sx={{ fontSize: "40px", cursor: "pointer" }} />
-              </div>
+              <a
+                href="https://www.instagram.com/__raviprakash"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <InstagramIcon
+                  sx={{ fontSize: "40px", cursor: "pointer", color: "#000" }}
+                />
+              </a>
               <div>
                 <GoogleIcon sx={{ fontSize: "40px", cursor: "pointer" }} />
               </div>
-              <div>
+              <a
+                href="https://www.linkedin.com/in/raviprakash11"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <LinkedInIcon sx={{ fontSize: "40px", cursor: "pointer" }} />
-              </div>
+              </a>
               <div>
                 <EmailIcon sx={{ fontSize: "40px", cursor: "pointer" }} />
               </div>

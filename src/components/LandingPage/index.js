@@ -11,7 +11,7 @@ export default function LandingPage() {
         gap: "26px",
       }}
     >
-      <div style={{ width: "80%" }}>
+      <div style={{ width: "100%" }}>
         <div style={{ fontSize: "44px" }}>Ravi</div>
         <div style={{ fontSize: "44px" }}>Prakash,</div>
         <div style={{ fontSize: "18px", fontStyle: "italic" }}>
