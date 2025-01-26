@@ -99,7 +99,7 @@ a:hover {
   left: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #e6c200;
   content: " ";
 }
 span {
@@ -147,17 +147,17 @@ h4 {
 }
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   text-shadow: none;
 }
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   text-shadow: none;
 }
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   text-shadow: none;
 }
 .section-seperator {
@@ -185,7 +185,7 @@ h4 {
   top: 0;
   right: -20px;
   font-size: 60px;
-  color: #17bed2;
+  color: #e6c200;
   content: open-quote;
 }
 .btn-theme,
@@ -227,7 +227,7 @@ fieldset[disabled] .btn-theme {
 }
 .btn-base-bg {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   border-color: transparent;
   border-width: 0;
 }
@@ -323,7 +323,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon,
 .header .navbar-toggle:hover .toggle-icon:after,
 .header .navbar-toggle:hover .toggle-icon:before {
-  background: #17bed2;
+  background: #e6c200;
   transition-duration: 0.3s;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -405,7 +405,7 @@ fieldset[disabled] .btn-theme {
   right: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #e6c200;
   content: " ";
 }
 @media (max-width: 991px) {
@@ -678,7 +678,7 @@ fieldset[disabled] .btn-theme {
   opacity: 0.8;
 }
 .color-base {
-  color: #17bed2;
+  color: #e6c200;
 }
 .color-white {
   color: #fff;
@@ -699,7 +699,7 @@ fieldset[disabled] .btn-theme {
   color: #fafafa;
 }
 .bg-color-base {
-  background: #17bed2;
+  background: #e6c200;
 }
 .bg-color-white {
   background: #fff;
