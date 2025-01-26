@@ -1,1 +1,596 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/icon.png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Ravi Prakash</title><script defer="defer" src="/static/js/main.280434b4.js"></script><link href="/static/css/main.cfa66a28.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <!-- BEGIN HEAD -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Ravi Prakash</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <link
+      href="vendor/swiper/css/swiper.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- THEME STYLES -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <!-- END HEAD -->
+
+  <!-- BODY -->
+  <body id="body" data-spy="scroll" data-target=".header">
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+      <!-- Navbar -->
+      <nav class="navbar" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container js_nav-item">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".nav-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="toggle-icon"></span>
+            </button>
+
+            <!-- Logo -->
+            <div class="logo">
+              <a class="logo-wrap" href="#body">
+                <img
+                  class="logo-img"
+                  src="https://raw.githubusercontent.com/raviprakash11/bin/master/brandmainlogo.png"
+                  alt="RP Logo"
+                />
+              </a>
+            </div>
+            <!-- End Logo -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+            <div class="menu-container">
+              <ul class="nav navbar-nav navbar-nav-right">
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#body">Home</a>
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#experience"
+                    >Experience</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#work">Work</a>
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Navbar Collapse -->
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
+
+    <!--========== SLIDER ==========-->
+    <div class="promo-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 sm-margin-b-60">
+            <div class="margin-b-30">
+              <h1 class="promo-block-title">
+                Ravi <br />
+                Prakash
+              </h1>
+              <p class="promo-block-text">
+                Software Engineer, building scalable web applications &amp;
+                exploring AI-driven solutions.
+              </p>
+            </div>
+            <ul class="list-inline">
+                              <!-- <li>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="social-icons"
+                  ><i class="icon-social-youtube"></i
+                ></a>
+              </li> -->
+              <li>
+                <a
+                  href="https://www.instagram.com/__raviprakash"
+                  target="_blank"
+                  class="social-icons"
+                  ><i class="icon-social-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.github.com/raviprakash11/"
+                  target="_blank"
+                  class="social-icons"
+                  ><i class="icon-social-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/raviprakash11/"
+                  target="_blank"
+                  class="social-icons"
+                  ><i class="icon-social-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <div class="promo-block-img-wrap">
+              <img
+                class="promo-block-img img-responsive"
+                src="#"
+                align="Avatar"
+              />
+            </div>
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!--========== SLIDER ==========-->
+
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- About -->
+    <div id="about">
+      <div class="container content-lg">
+        <div class="row">
+          <div class="col-sm-5 sm-margin-b-60">
+            <img
+              class="full-width img-responsive"
+              src="https://avatars.githubusercontent.com/u/41009964?v=4"
+              alt="Image"
+            />
+          </div>
+          <div class="col-sm-7">
+            <div class="section-seperator margin-b-50">
+              <div class="margin-b-50">
+                <div class="margin-b-30">
+                  <h2>About Me</h2>
+                  <p>
+                    Ravi Prakash is a passionate software engineer with nearly
+                    four years of experience in web development, specializing in
+                    Vue.js, TypeScript, and React.js. He holds a BTech in
+                    Computer Science from Sikkim Manipal Institute of
+                    Technology. Beyond coding, he enjoys solving LeetCode
+                    problems and sharing solutions on Instagram.
+                  </p>
+                  <p>
+                    A nature enthusiast, Ravi loves traveling, trekking, and
+                    exploring new places. He is also a dedicated reader and
+                    enjoys cooking vegetarian dishes.
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="btn-theme btn-theme-md btn-default-bg text-uppercase"
+                  onclick="return false;"
+                  >Download my CV</a
+                >
+              </div>
+            </div>
+
+            <h2>My Skills</h2>
+            <!-- Progress Box -->
+            <div class="progress-box">
+              <h5>
+                UI development
+                <span class="color-heading pull-right">80%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                Backend development
+                <span class="color-heading pull-right">70%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="70"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                Full Stack development <span class="color-heading pull-right">90%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="90"
+                ></div>
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Experience -->
+    <div id="experience">
+      <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="container content-lg">
+          <div class="row row-space-2 margin-b-4">
+            <div class="col-md-3 col-sm-6 md-margin-b-4">
+              <div class="service" data-height="height">
+                <div class="service-element">
+                  <i class="service-icon icon-mustache"></i>
+                </div>
+                <div class="service-info">
+                  <h3>Frontend Development</h3>
+                  <p class="margin-b-5">
+                    Focuses on building user interfaces using technologies like HTML, CSS, JavaScript, React, and Vue.js to create visually appealing and responsive web applications.
+                  </p>
+                </div>
+                <!-- <a href="#" class="content-wrapper-link"></a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 md-margin-b-4">
+              <div
+                class="service bg-color-base wow zoomIn"
+                data-height="height"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <div class="service-element">
+                  <i class="service-icon color-white icon-screen-tablet"></i>
+                </div>
+                <div class="service-info">
+                  <h3 class="color-white">Software Consulting</h3>
+                  <p class="color-white margin-b-5">
+                    Provides expert guidance on software architecture, tech stacks, and best practices to help businesses optimize development, scalability, and system performance.
+                  </p>
+                </div>
+                <!-- <a href="#" class="content-wrapper-link"></a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 sm-margin-b-4">
+              <div class="service" data-height="height">
+                <div class="service-element">
+                  <i class="service-icon icon-chemistry"></i>
+                </div>
+                <div class="service-info">
+                  <h3>Backend Development</h3>
+                  <p class="margin-b-5">
+                    Handles server-side logic, databases, and APIs using frameworks like Node.js, Django, or Spring Boot to ensure efficient data processing and system functionality.
+                  </p>
+                </div>
+                <!-- <a href="#" class="content-wrapper-link"></a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service" data-height="height">
+                <div class="service-element">
+                  <i class="service-icon icon-badge"></i>
+                </div>
+                <div class="service-info">
+                  <h3>DevOps</h3>
+                  <p class="margin-b-5">
+                    Combines development and operations to streamline CI/CD, automate deployments, manage cloud infrastructure, and enhance software reliability with tools like Docker, Kubernetes, and AWS.
+                  </p>
+                </div>
+                <!-- <a href="#" class="content-wrapper-link"></a> -->
+              </div>
+            </div>
+          </div>
+          <!--// end row -->
+        </div>
+      </div>
+    </div>
+    <!-- End Experience -->
+
+    <!-- Work -->
+    <div id="work">
+      <div class="container content-lg">
+        <div class="row margin-b-40">
+          <div class="col-sm-6">
+            <h2>Latest Projects</h2>
+            <p>
+              Let me know if you'd like to tweak any of them!
+            </p>
+          </div>
+        </div>
+        <!--// end row -->
+
+        <div class="row">
+          <!-- Latest Products -->
+          <div class="col-sm-4 sm-margin-b-50">
+            <div class="margin-b-20">
+              <div
+                class="wow zoomIn"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <img
+                  class="img-responsive"
+                  src="https://raw.githubusercontent.com/raviprakash11/bin/master/imac.png"
+                  alt="Latest Products Image"
+                />
+              </div>
+            </div>
+            <h4>
+              <a href="https://github.com/raviprakash11/CodeEditor" target="_blank">My Online Editor</a>
+              <span class="text-uppercase margin-l-20">App Development</span>
+            </h4>
+            <p>
+              The CodeEditor project is an online code editor that enables users to write and edit code in various programming languages. It provides a simple interface for creating and sharing code with others, while also allowing users to download their code locally. The platform focuses on ease of use without the need for execution capabilities.
+            </p>
+            <a class="link" href="https://myonlineeditor.vercel.app/" target="_blank">Learn More</a>
+          </div>
+          <!-- End Latest Products -->
+
+          <!-- Latest Products -->
+          <div class="col-sm-4 sm-margin-b-50">
+            <div class="margin-b-20">
+              <div
+                class="wow zoomIn"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <img
+                  class="img-responsive"
+                  src="img/970x647/01.jpg"
+                  alt="Latest Products Image"
+                />
+              </div>
+            </div>
+            <h4>
+              <a href="https://github.com/raviprakash11/soft-logger" target="_blank">Soft Logger</a>
+              <span class="text-uppercase margin-l-20">Maven Plugin Dev</span>
+            </h4>
+            <p>
+              Soft Logger: Your go-to Java Maven tool for streamlined automation execution log management. Simplify log tracking and enhance efficiency in software development.
+            </p>
+            <a class="link" href="https://github.com/raviprakash11/soft-logger" target="_blank">Learn More</a>
+          </div>
+          <!-- End Latest Products -->
+
+          <!-- Latest Products -->
+          <div class="col-sm-4 sm-margin-b-50">
+            <div class="margin-b-20">
+              <div
+                class="wow zoomIn"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <img
+                  class="img-responsive"
+                  src="https://raw.githubusercontent.com/raviprakash11/pics/master/imgs/pic5.jpg"
+                  alt="Latest Products Image"
+                />
+              </div>
+            </div>
+            <h4>
+              <a href="https://github.com/raviprakash11/CreditCardFraudDetectionSystem" target="_blank">CCFDS</a>
+              <span class="text-uppercase margin-l-20">ML Project</span>
+            </h4>
+            <p>
+              The Credit Card Fraud Detection Problem includes modeling past credit card transactions with the knowledge of the ones that turned out to be fraud. So,this system is used to identify whether a new transaction is fraudulent or not.
+            </p>
+            <a class="link"  href="https://github.com/raviprakash11/CreditCardFraudDetectionSystem" target="_blank">Learn More</a>
+          </div>
+          <!-- End Latest Products -->
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End Work -->
+
+    <!-- Clients -->
+    <div class="bg-color-sky-light">
+      <div class="content-lg container">
+        <!-- Swiper Clients -->
+        <div class="swiper-slider swiper-clients">
+          <!-- Swiper Wrapper -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swiper-clients-img"
+                src="img/badges/aws-ccp.png"
+                alt="badges"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-clients-img"
+                src="img/badges/az-900.png"
+                alt="badges"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-clients-img"
+                src="img/badges/dp-203.png"
+                alt="badges"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-clients-img"
+                src="img/badges/az-tech.png"
+                alt="badges"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-clients-img"
+                src="img/badges/rhcsa.png"
+                alt="badges"
+              />
+            </div>
+          </div>
+          <!-- End Swiper Wrapper -->
+        </div>
+        <!-- End Swiper Clients -->
+      </div>
+    </div>
+    <!-- End Clients -->
+
+    <!-- Promo Banner -->
+    <div
+      class="promo-banner parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/1920x1080/01.jpg"
+    >
+      <div class="container-sm content-lg">
+        <h2 class="promo-banner-title">Displaying the Result</h2>
+        <p class="promo-banner-text">
+          Developed a React JS application, a machine learning model for data prediction, and a custom Maven plugin to automate build processes, enhancing project efficiency and performance.
+        </p>
+      </div>
+    </div>
+    <!-- End Promo Banner -->
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="bg-color-sky-light">
+        <div class="container content-lg">
+          <div class="row margin-b-40">
+            <div class="col-sm-6">
+              <h2>Contact Me</h2>
+              <p>
+Send me a mail! I'm currently taking on new freelancing clients. I look forward to working with you. You may receive a email back from me with 12 - 24 hrs.
+              </p>
+            </div>
+          </div>
+          <!--// end row -->
+
+          <div class="row">
+            <div class="col-md-3 col-xs-6 md-margin-b-30">
+              <h4>Location</h4>
+              <a>Bengaluru, India</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <h4>Email</h4>
+              <a href="mailto:workxravi@gmail.com">workxravi@gmail.com</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <h4>Web</h4>
+              <a href="https://raviprakash.vercel.app" target="_blank">raviprakash.vercel.app</a>
+            </div>
+          </div>
+          <!--// end row -->
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!--========== END PAGE LAYOUT ==========-->
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+      <div class="content container">
+        <div class="row">
+          <div class="col-xs-6">
+            <img
+              class="footer-logo"
+              src="https://raw.githubusercontent.com/raviprakash11/bin/master/brandmainlogo.png"
+              alt="RP Logo"
+            />
+          </div>
+          <div class="col-xs-6 text-right sm-text-left">
+            <p class="margin-b-0">
+              <div class="fweight-400"
+                >&copy; 2024 Ravi Prakash. All Rights Reserved.</div
+              >
+            </p>
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </footer>
+    <!--========== END FOOTER ==========-->
+
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script
+      src="vendor/bootstrap/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script
+      src="vendor/jquery.smooth-scroll.js"
+      type="text/javascript"
+    ></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script
+      src="vendor/swiper/js/swiper.jquery.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script
+      src="js/components/progress-bar.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/components/swiper.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+  </body>
+  <!-- END BODY -->
+</html>
