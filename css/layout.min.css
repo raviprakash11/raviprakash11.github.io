@@ -106,7 +106,7 @@ a:hover {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #e6c200;
   content: " ";
 }
 span {
@@ -153,17 +153,17 @@ h4 {
 }
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   text-shadow: none;
 }
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   text-shadow: none;
 }
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   text-shadow: none;
 }
 .section-seperator {
@@ -234,7 +234,7 @@ fieldset[disabled] .btn-theme {
 .btn-white-bg:focus,
 .btn-white-bg:hover {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   border-color: transparent;
 }
 .btn-white-brd {
@@ -260,7 +260,7 @@ fieldset[disabled] .btn-theme {
 .btn-default-bg:focus,
 .btn-default-bg:hover {
   color: #fff;
-  background: #17bed2;
+  background: #e6c200;
   border-color: transparent;
 }
 .btn-theme-sm {
@@ -421,7 +421,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon,
 .header .navbar-toggle:hover .toggle-icon:after,
 .header .navbar-toggle:hover .toggle-icon:before {
-  background: #17bed2;
+  background: #e6c200;
   transition-duration: 0.3s;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -518,7 +518,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #e6c200;
   opacity: 0;
   content: " ";
   transition-duration: 0.4s;
@@ -691,7 +691,7 @@ fieldset[disabled] .btn-theme {
   opacity: 0.8;
 }
 .color-base {
-  color: #17bed2 !important;
+  color: #e6c200 !important;
 }
 .color-white {
   color: #fff !important;
@@ -712,7 +712,7 @@ fieldset[disabled] .btn-theme {
   color: #fafafa !important;
 }
 .bg-color-base {
-  background: #17bed2 !important;
+  background: #e6c200 !important;
 }
 .bg-color-white {
   background: #fff !important;
